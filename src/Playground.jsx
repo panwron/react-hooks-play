@@ -10,7 +10,7 @@ export default function Playground() {
   
   return (
     <div>
-        <p>Use State Hooks</p>
+        <h3>Use State Hooks</h3>
       <section>
         <input
           type="text"

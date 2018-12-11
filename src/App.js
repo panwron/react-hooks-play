@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Playground from './Playground';
+import TodoApp from './Todo';
+
 
 class App extends Component {
   render() {
@@ -12,8 +14,8 @@ class App extends Component {
       <hr/>
         <Playground/>  
       <hr/>
-      <p>Use lifecycle events with useEffect</p>
-
+      <h3>Use lifecycle events with useEffect</h3>
+      <TodoApp/>
       </div>
     );
   }
