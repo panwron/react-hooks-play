@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Playground from './Playground';
 import TodoApp from './Todo';
+import TodoHooks from './TodoHooks';
+
+
 
 
 class App extends Component {
@@ -15,7 +18,16 @@ class App extends Component {
         <Playground/>  
       <hr/>
       <h3>Use lifecycle events with useEffect</h3>
-      <TodoApp/>
+      <div style={{display: "flex"}}>
+     <div style={{width: "50%"}}>
+     <TodoApp/>
+     </div>
+     <div style={{width: "50%"}}>
+
+      <TodoHooks />
+     </div>
+
+      </div>
       </div>
     );
   }
